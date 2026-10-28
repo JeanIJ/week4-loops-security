@@ -1,25 +1,17 @@
-# Automating Repetition for Security Tasks
+# Week 4 — Loops for Security Tasks
 
-Python assignment for Code:You SecOps pathway.
+Code:You SecOps Python exercise using loops to classify IP addresses.
 
-This script loops through a list of IP addresses and classifies each one as internal or external based on RFC 1918 private ranges. It counts results, stores them in lists, and includes a while loop for manual user input.
+## Description
+Classifies a sample list of IPs as private (RFC 1918 Class A/B/C) or public, counts results, then accepts interactive IP input until the user types `done`.
 
-## What it does
-* Iterates through predefined IP addresses using a for loop
-* Classifies IPs as Private Class A, B, C or Public
-* Counts internal and external IPs
-* Stores classified IPs in separate lists
-* Includes a while loop for dynamic user input until done is entered
+## Technologies
+- Python 3
 
-## Files
-* ip_scanner.py (or loops_ips.py) the main script
+## Usage
+```bash
+python3 loops_ips.py
+```
 
-## How to run
-python ip_scanner.py
-
-## What I practiced
-* For loops and while loops
-* Conditional logic with if, elif, else
-* String methods like startswith and split
-* List operations append and storage
-* User input handling with break conditions
+## Status
+Completed learning exercise.
